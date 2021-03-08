@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\SFML2\;CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\;CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\lib\;CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\lib\cmake\;CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyGame">
+				<Option output="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/MyGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML2/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGame"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyGame/fast">
+				<Option output="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/MyGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/SFML2/SFML-2.5.1/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyGame/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/CloseGame.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/CloseGame.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/Controller.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/Controller.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/LoadGame.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/LoadGame.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/MoveDown.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/MoveDown.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/MoveLeft.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/MoveLeft.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/MoveRight.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/MoveRight.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/MoveUp.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/MoveUp.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/SaveGame.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/SaveGame.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/StartGame.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Commands/StartGame.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/Chest.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/Chest.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/ChestStrategy/Bonuses/BonusCoin.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/ChestStrategy/Bonuses/BonusCoin.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/ChestStrategy/Bonuses/BonusDamage.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/ChestStrategy/Bonuses/BonusDamage.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/ChestStrategy/Bonuses/BonusHealth.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/ChestStrategy/Bonuses/BonusHealth.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/ChestStrategy/Bonuses/BonusWinGame.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/ChestStrategy/Bonuses/BonusWinGame.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/ChestStrategy/Bonuses/Bonuses.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/Coin.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/Coin.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/Element.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/Mushroom.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Elements/Mushroom.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Field/Cell/Cell.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Field/Cell/Cell.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Field/Field.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Field/Field.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Game.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Game.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Player/Player.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/Player/Player.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/States/StateMoveEnemy.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/States/StateMoveEnemy.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/States/StateMovePlayer.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/States/StateMovePlayer.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Game/StatusEnum.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/AbstractFactory/AbstractFactory.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/AbstractFactory/ChestFactory.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/AbstractFactory/ChestFactory.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/AbstractFactory/CoinFactory.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/AbstractFactory/CoinFactory.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/AbstractFactory/MushroomFactory.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/AbstractFactory/MushroomFactory.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Command/Command.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Errors/InvalidFileException.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Iterator/Iterator.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Iterator/Iterator.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Logger/LogConsole.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Logger/LogConsole.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Logger/LogFile.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Logger/LogFile.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Logger/Logger.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Logger/Logger.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Logger/LoggerImpl.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/MyCollections/collections.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/MyCollections/collections.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Observer/Observer.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Observer/Subject.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/SaveAndLoad/SaveAndLoad.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/SaveAndLoad/SaveAndLoad.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/State/State.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/Tools/Strategy/BonusStrategy.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/UI/Menu/Menu.h">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/main.cpp">
+			<Option target="MyGame"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/../../../../../SFML2/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/../../../../../SFML2/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/../../../../../SFML2/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/../../../../../SFML2/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/../../../../../SFML2/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="C:/Users/vikto/CLionProjects/MyGameForGit/Demin_Victor/../../../../../SFML2/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\SFML2\SFML-2.5.1\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

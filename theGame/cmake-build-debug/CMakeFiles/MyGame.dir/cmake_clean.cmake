@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/MyGame.dir/Game/Commands/CloseGame.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Commands/Controller.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Commands/LoadGame.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Commands/MoveDown.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Commands/MoveLeft.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Commands/MoveRight.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Commands/MoveUp.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Commands/SaveGame.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Commands/StartGame.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Elements/Chest.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Elements/ChestStrategy/Bonuses/BonusCoin.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Elements/ChestStrategy/Bonuses/BonusDamage.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Elements/ChestStrategy/Bonuses/BonusHealth.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Elements/ChestStrategy/Bonuses/BonusWinGame.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Elements/Coin.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Elements/Mushroom.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Field/Cell/Cell.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Field/Field.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Game.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/Player/Player.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/States/StateMoveEnemy.cpp.obj"
+  "CMakeFiles/MyGame.dir/Game/States/StateMovePlayer.cpp.obj"
+  "CMakeFiles/MyGame.dir/Tools/AbstractFactory/ChestFactory.cpp.obj"
+  "CMakeFiles/MyGame.dir/Tools/AbstractFactory/CoinFactory.cpp.obj"
+  "CMakeFiles/MyGame.dir/Tools/AbstractFactory/MushroomFactory.cpp.obj"
+  "CMakeFiles/MyGame.dir/Tools/Iterator/Iterator.cpp.obj"
+  "CMakeFiles/MyGame.dir/Tools/Logger/LogConsole.cpp.obj"
+  "CMakeFiles/MyGame.dir/Tools/Logger/LogFile.cpp.obj"
+  "CMakeFiles/MyGame.dir/Tools/Logger/Logger.cpp.obj"
+  "CMakeFiles/MyGame.dir/Tools/MyCollections/collections.cpp.obj"
+  "CMakeFiles/MyGame.dir/Tools/SaveAndLoad/SaveAndLoad.cpp.obj"
+  "CMakeFiles/MyGame.dir/main.cpp.obj"
+  "MyGame.exe"
+  "MyGame.exe.manifest"
+  "MyGame.pdb"
+  "libMyGame.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/MyGame.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
